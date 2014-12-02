@@ -1,0 +1,40 @@
+$font-family: Georgia, Serif; 
+$off-grey: #aaaaaa;
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+ 
+
+nav{ 
+font-family: $font-family; 
+
+}	
+
+h1 { 
+	font-family: $font-family;
+	color: $off-grey;
+	padding-top: 0px;
+} 
+
+h2 { 
+	color: $off-grey;
+	font-family: $font-family;
+} 
+
+h3 {
+
+font-family: $font-family
+
+}
+
+// .aboutimg {
+// float:right
+
+// }
